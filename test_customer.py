@@ -24,4 +24,4 @@ def test_customers_reservation(customer, reservation):
 
 
 def test_reservation_from_customer(customer, reservation):
-    assert reservation.customer is None
+    assert reservation.customer is customer
