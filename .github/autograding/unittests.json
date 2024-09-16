@@ -1,7 +1,32 @@
 [
   {
-    "name": "test",
-    "function": "test",
+    "name": "test_reservation_number",
+    "function": "test_reservation_number",
+    "timeout": 10,
+    "points": 1
+  },{
+    "name": "test_reservation_event",
+    "function": "test_reservation_event",
+    "timeout": 10,
+    "points": 1
+  },{
+    "name": "test_reservation_without_customer",
+    "function": "test_reservation_without_customer",
+    "timeout": 10,
+    "points": 1
+  },{
+    "name": "test_customer_name",
+    "function": "test_customer_name",
+    "timeout": 10,
+    "points": 1
+  },{
+    "name": "test_customers_reservation",
+    "function": "test_customers_reservation",
+    "timeout": 10,
+    "points": 1
+  },{
+    "name": "test_reservation_from_customer",
+    "function": "test_reservation_from_customer",
     "timeout": 10,
     "points": 1
   }
