@@ -1,12 +1,15 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 14.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+from customer import Customer
+from reservation import Reservation
+
+
+def main():
+    """ creates some objects and calls some methods """
+
+    reservation = Reservation('123', 'ESAF')
+    customer = Customer('Julian', reservation)
+    print(customer)
+    print(reservation)
 
 
 if __name__ == '__main__':
-    calculate()
+    main()
