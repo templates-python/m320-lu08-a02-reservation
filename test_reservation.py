@@ -4,7 +4,7 @@ from reservation import Reservation
 
 
 @pytest.fixture
-def reservation(self):
+def reservation():
     return Reservation('123', 'ESAF')
 
 
